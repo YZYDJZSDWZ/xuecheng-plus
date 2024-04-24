@@ -53,5 +53,4 @@ public class CourseCategory implements Serializable {
      */
     private Integer isLeaf;
 
-
 }
