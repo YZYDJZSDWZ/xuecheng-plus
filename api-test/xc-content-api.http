@@ -9,3 +9,35 @@ Content-Type: application/json
 
 ###
 GET {{content_host}}/content/course-category/tree-nodes
+
+###
+### 新增课程
+POST {{content_host}}/content/course
+Content-Type: application/json
+
+{
+  "charge": "201001",
+  "description": "adsd",
+  "grade": "204001",
+  "mt": "1-1",
+  "name": "",
+  "originalPrice": 100,
+  "phone": "13333333",
+  "pic": "fdsf",
+  "price": 10,
+  "qq": "22333",
+  "st": "1-1-1",
+  "tags": "sdsdwe",
+  "teachmode": "20002",
+  "users": "初级人员",
+  "validDays": 365,
+  "wechat": "223344"
+}
+
+### 课程查询
+GET {{content_host}}/content/course/40
+
+
+### 课程计划查询
+GET {{content_host}}/content/teachplan/117/tree-nodes
+
